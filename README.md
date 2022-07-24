@@ -1,41 +1,24 @@
 # Patel_Study
 ### Xiaonan Wang
-### 27May2020
-## Summary: Data analysis of Patel Study
+### 15July2022
+## Summary: Data analysis of Patel Study - SmartSeq2
 
 ## Introduction
-The data has been sequenced using both
-  1. Smart-Seq2
-  2. TenX
-  
-**The raw data files included in this study are listed below:**  
+Mouse bone marrow Lin-Sca1+cKit+ cells from 6 genotypes:
+1. WT
+2. Aldh2-/-
+3. Fancd2-/-
+4. p53-/-
+5. Aldh2-/-Fancd2-/- double knock-out 
+6. Aldh2-/-Fancd2-/-p53-/- triple knock-out
 
-| SLX Number   | Species | Batch | Type                              | Project Manager | Collaborator | Published? | GEO | Location |
-|--------------|---------|-------|-----------------------------------|-----------------|--------------|------------|-----|----------|
-| SLX_14719    | mouse   | B1    |                                   | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_14789    | mouse   | B1    |                                   | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_14873_B1 | mouse   | B2    | Pools of cells, sequenced 2 times | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_14873_B2 | mouse   | B2    | Pools of cells, sequenced 2 times | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_14256    | mouse   | B3    |                                   | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_14257    | mouse   | B3    |                                   | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_16885    | mouse   | B4    |                                   | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_16886    | mouse   | B4    |                                   | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_16888    | mouse   | B4    |                                   | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_16889    | mouse   | B4    |                                   | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_16890    | mouse   | B4    | pools of cells                    | Nicola          | KJ Patel     | no         |     | rfs      |
-| SLX_18782    | mouse   | B1    | TenX                              | Nicola          | KJ Patel     | no         |     | rfs      |
+The cells were sorted using the Smart-Seq2 method and sequenced using the Illumina platform. In total, there were 2554 cells passed QC and were submitted onto GEO with accession number xxx.
 
 ## Notebooks_SMQ2
 The analysis include:
-  - <ins>**[Patel_all](https://github.com/SharonWang/Patel_Study/blob/master/Notebooks_SMQ2/Patel_SMQ2_analysis.ipynb)**</ins>: Analysis of all cells in general, then split into EryA and LSK
-  - <ins>**[Patel_EryA](https://github.com/SharonWang/Patel_Study/blob/master/Notebooks_SMQ2/Patel_SMQ2_EryA_analysis.ipynb)**</ins>: Analysis of EryA cells
-  - <ins>**[Patel_LSK](https://github.com/SharonWang/Patel_Study/blob/master/Notebooks_SMQ2/Patel_SMQ2_LSK_analysis.ipynb)**</ins>: Analysis of LSK cells
-  - <ins>**[Patel_LSK_proj](https://github.com/SharonWang/Patel_Study/blob/master/Notebooks_SMQ2/Project_LSK_onto_Niki_landscape.ipynb)**</ins>: Projection of LSK cells onto [Niki haematopoeitic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/)
-  - <ins>**[Patel_LSK_HSCscore_pred](https://github.com/SharonWang/Patel_Study/blob/master/Notebooks_SMQ2/HSCscore_prediction_LSK.ipynb)**</ins>: Calculation of HSCscores using [hscScore](https://github.com/fionahamey/hscScore) developed by Fiona Hamey. The orginal paper can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6900257/).
-
-## Notebooks_TenX
-The analysis include:
-  - <ins>**[Patel_LK](https://github.com/SharonWang/Patel_Study/blob/master/Notebooks_TenX/Patel_TenX_analysis.ipynb)**</ins>: Analysis of all cells
-  - <ins>**[Patel_LK_proj](https://github.com/SharonWang/Patel_Study/blob/master/Notebooks_TenX/Project_onto_Niki_landscape.ipynb)**</ins>: Projection of LK cells onto [Niki haematopoeitic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/)
-  - <ins>**[Patel_LK_HSCscore_pred](https://github.com/SharonWang/Patel_Study/blob/master/Notebooks_TenX/HSCscore_prediction.ipynb)**</ins>: Calculation of HSCscores using [hscScore](https://github.com/fionahamey/hscScore) developed by Fiona Hamey. The orginal paper can be found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6900257/).
-
+  - <ins>**[Patel_all](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Patel_SMQ2_analysis.ipynb)**</ins>: Analysis of all cells in general, then split into EryA and LSK
+  - <ins>**[Patel_LSK1](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Patel_SMQ2_LSK_analysis_part1.ipynb)**</ins>: Pre-processing of LSK cells
+  - <ins>**[Patel_LSK2](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Patel_SMQ2_LSK_analysis_part2.ipynb)**</ins>: Downstream analysis of LSK cells
+  - <ins>**[Patel_LSK_proj1](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Project_LSK_onto_Dahlin_landscape.ipynb)**</ins>: Cell type annotation using the [Niki haematopoietic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/) as reference
+  - <ins>**[Patel_LSK_proj2](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Project_LSK_onto_Nestorowa_landscape.ipynb)**</ins>: Cell type annotation using the [Nestorowa haematopoietic landscape](https://pubmed.ncbi.nlm.nih.gov/27365425/) as reference
+  - <ins>**[Human_AML](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Human_AMLdata.ipynb)**</ins>: Human AML dataset downloaded from [GEO:GSE116256](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256) from [Galen et al., Cell 2019](https://pubmed.ncbi.nlm.nih.gov/30827681/)
