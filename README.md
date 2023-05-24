@@ -65,7 +65,7 @@ This directory should have figures:
 - **FigureS7**: FigS7
 
 The analysis include:
-  - <ins>**[Aging_Preprocess](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Ageing_mice_preanalysis.ipynb)**</ins>: Pre-processing of aging data
+  - <ins>**[Aging_Preprocess](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Ageing_mice_preanalysis.ipynb)**</ins>: Pre-processing of the aging data
   - <ins>**[Aging_proj1](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Project_onto_Dahlin_Landscape.ipynb)**</ins>: Cell type annotation using the [Dahlin haematopoietic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/) as reference
   - <ins>**[Aging_proj2](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Project_onto_Nestorowa_Landscape.ipynb)**</ins>: Cell type annotation using the [Nestorowa haematopoietic landscape](https://pubmed.ncbi.nlm.nih.gov/27365425/) as reference
   - <ins>**[Aging_score](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Ageing_Score_Cal.ipynb)**</ins>: Aging score calculation using the top 20 defined aging genes
@@ -80,7 +80,11 @@ This directory should have figures:
 - **Figure3**: Fig3D
 - **FigureS5**: FigS5C
 
-The analysis include
+The analysis include:
+  - <ins>**[Aldh2_Adh5_Preprocess](https://github.com/SharonWang/Patel_Study/blob/master/GSE157832_Aldh2_Adh5/Aldh2_Adh5_preanalysis.ipynb)**</ins>: Pre-processing of the Aldh2_Adh5 10X LK data
+  - <ins>**[Aldh2_Adh5_HSPC](https://github.com/SharonWang/Patel_Study/blob/master/GSE157832_Aldh2_Adh5/HSPC_analysis.ipynb)**</ins>: HSPCs were extracted from the LK data and been processed
+  - <ins>**[Aldh2_Adh5_proj1](https://github.com/SharonWang/Patel_Study/blob/master/GSE157832_Aldh2_Adh5/Project_onto_Dahlin_Landscape.ipynb)**</ins>: Cell type annotation using the [Dahlin haematopoietic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/) as reference
+  - <ins>**[Aldh2_Adh5_proj2](https://github.com/SharonWang/Patel_Study/blob/master/GSE157832_Aldh2_Adh5/Project_onto_Nestorowa_Landscape.ipynb)**</ins>: Cell type annotation using the [Nestorowa haematopoietic landscape](https://pubmed.ncbi.nlm.nih.gov/27365425/) as reference
 
 
 
