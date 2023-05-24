@@ -45,12 +45,30 @@ This directory should have figures:
 - **FigureS4**: FigS4A, FigS4B
 - **FigureS5**: FigS5A, FigS5B, FigS5D
 
+The analysis include:
+  - <ins>**[Patel_all](https://github.com/SharonWang/Patel_Study/blob/master/scRNASeq_SMQ2/Patel_SMQ2_analysis.ipynb)**</ins>: Analysis of all cells in general, then split into EryA and LSK
+  - <ins>**[Patel_LSK1](https://github.com/SharonWang/Patel_Study/blob/master/scRNASeq_SMQ2/Patel_SMQ2_LSK_analysis_part1.ipynb)**</ins>: Pre-processing of LSK cells
+  - <ins>**[Patel_LSK2](https://github.com/SharonWang/Patel_Study/blob/master/scRNASeq_SMQ2/Patel_SMQ2_LSK_analysis_part2.ipynb)**</ins>: Downstream analysis of LSK cells
+  - <ins>**[Patel_LSK_proj1](https://github.com/SharonWang/Patel_Study/blob/master/scRNASeq_SMQ2/Project_LSK_onto_Dahlin_landscape.ipynb)**</ins>: Cell type annotation using the [Dahlin haematopoietic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/) as reference
+  - <ins>**[Patel_LSK_proj2](https://github.com/SharonWang/Patel_Study/blob/master/scRNASeq_SMQ2/Project_LSK_onto_Nestorowa_landscape.ipynb)**</ins>: Cell type annotation using the [Nestorowa haematopoietic landscape](https://pubmed.ncbi.nlm.nih.gov/27365425/) as reference
+  - <ins>**[Aging_score](https://github.com/SharonWang/Patel_Study/blob/master/scRNASeq_SMQ2/Ageing_Score_Cal.ipynb)**</ins>: Aging score calculation using the top 20 defined aging genes
 
+## WT_Ageing_Data
+To investigate the impact of aging, mouse bone marrow Lin-cKit+ cells from 3 conditions:
+1. Young WT (16-weeks)
+2. Old WT (68-weeks)
+3. Older Hetero Fancd2 (88-weeks)
+
+This directory should have figures:
+- **Figure2**: Fig2A
+- **Figure6**: Fig6B
+- **FigureS7**: FigS7
 
 The analysis include:
-  - <ins>**[Patel_all](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Patel_SMQ2_analysis.ipynb)**</ins>: Analysis of all cells in general, then split into EryA and LSK
-  - <ins>**[Patel_LSK1](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Patel_SMQ2_LSK_analysis_part1.ipynb)**</ins>: Pre-processing of LSK cells
-  - <ins>**[Patel_LSK2](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Patel_SMQ2_LSK_analysis_part2.ipynb)**</ins>: Downstream analysis of LSK cells
-  - <ins>**[Patel_LSK_proj1](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Project_LSK_onto_Dahlin_landscape.ipynb)**</ins>: Cell type annotation using the [Niki haematopoietic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/) as reference
-  - <ins>**[Patel_LSK_proj2](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Project_LSK_onto_Nestorowa_landscape.ipynb)**</ins>: Cell type annotation using the [Nestorowa haematopoietic landscape](https://pubmed.ncbi.nlm.nih.gov/27365425/) as reference
+  - <ins>**[Aging_Preprocess](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Ageing_mice_preanalysis.ipynb)**</ins>: Pre-processing of aging data
+  - <ins>**[Aging_proj1](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Project_onto_Dahlin_Landscape.ipynb)**</ins>: Cell type annotation using the [Dahlin haematopoietic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/) as reference
+  - <ins>**[Aging_proj2](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Project_onto_Nestorowa_Landscape.ipynb)**</ins>: Cell type annotation using the [Nestorowa haematopoietic landscape](https://pubmed.ncbi.nlm.nih.gov/27365425/) as reference
+  - <ins>**[Aging_score](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/Ageing_Score_Cal.ipynb)**</ins>: 
+
+
   - <ins>**[Human_AML](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Human_AMLdata.ipynb)**</ins>: Human AML dataset downloaded from [GEO:GSE116256](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256) from [Galen et al., Cell 2019](https://pubmed.ncbi.nlm.nih.gov/30827681/)
