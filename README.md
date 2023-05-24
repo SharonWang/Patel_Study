@@ -97,4 +97,34 @@ The analysis include:
   - <ins>**[Human_AML](https://github.com/SharonWang/Patel_Study/blob/master/GSE116256_HumanAML/GSE116256_HumanAML.ipynb)**</ins>: Pre-processing of the human AML dataset and perform the p53 score calculation
 
 ## GSE157591_Rodriguez
+The human HSPC datasets from Fanconi anemia (FA) patients were downloaded from [GSE157591](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157591) from [Rodriguez et al., Cell Stem Cell, 2021](https://pubmed.ncbi.nlm.nih.gov/32997960/).
 
+This directory should have figures:
+- **Figure3**: Fig3E
+- **FigureS5**: FigS5E
+
+The analysis include:
+  - <ins>**[FA_Preprocess](https://github.com/SharonWang/Patel_Study/blob/master/GSE157591_Rodriguez/Rodriguez_Preanalysis.ipynb)**</ins>: Pre-processing of the FA HSPC dataset
+  - <ins>**[FA_CD34](https://github.com/SharonWang/Patel_Study/blob/master/GSE157591_Rodriguez/Rodriguez_CD34.ipynb)**</ins>: CD34+ HSPC cells were extracted and further processed
+  - <ins>**[p53_score](https://github.com/SharonWang/Patel_Study/blob/master/GSE157591_Rodriguez/p53_Score_Cal.ipynb)**</ins>: p53 score calculation using the 16 defined p53-associated target genes
+
+## Published_Ageing_Data
+The data in this directory contain young and old HSCs that were used to validate the Aging score.
+
+This directory should have figures:
+- **Figure6**: Fig6C
+
+The analysis include:
+  - <ins>**[Mann_data](https://github.com/SharonWang/Patel_Study/blob/master/Published_Ageing_Data/GSE100426_Mann.ipynb)**</ins>: Pre-processing of Mann data and the aging scores were calculated for each cell. The data was downloaded from [GSE100426](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100428) from [Mann et al., Cell Rep., 2018](https://pubmed.ncbi.nlm.nih.gov/30540934/)
+  - <ins>**[Kowalczyk_data] (https://github.com/SharonWang/Patel_Study/blob/master/Published_Ageing_Data/GSE59114_Kowalczyk.ipynb)**</ins>: Pre-processing of Kowalczky data and the aging scores were calculated for each cell. The data was downloaded from [GSE59114](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59114) from [Kowalczyk et al., Genome Res., 2015](https://pubmed.ncbi.nlm.nih.gov/26430063/)
+  - <ins>**[Kirschner_data](https://github.com/SharonWang/Patel_Study/blob/master/Published_Ageing_Data/GSE87631_Kirschner.ipynb)  **</ins>:Pre-processing of Kirschner data and the aging scores were calculated for each cell. The data was downloaded from [GSE87631](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2336370) from [Kirschner et al., Cell Rep., 2017](https://pubmed.ncbi.nlm.nih.gov/28538171/)
+
+## TCGA
+Use TCGA database to validate the survival of AML patients with/without p53 mutant.
+
+This directory should have figures:
+- **Figure5**: Fig5F, Fig5G
+- **FigureS6**: FigS6A, FigS6B, FigS6C, FigS6E
+
+The analysis include:
+  - <ins>**[TCGA_LAML](https://github.com/SharonWang/Patel_Study/blob/master/TCGA/TCGA_TARGET_AML.ipynb)**</ins>: TCGA-LAML data were downloaded from the TCGA database and the survival of all AML patients were analysed.
