@@ -30,7 +30,7 @@ Mouse bone marrow Lin-Sca1+cKit+ cells from 6 genotypes:
 5. Aldh2-/-Fancd2-/- double knock-out (DKO)
 6. Aldh2-/-Fancd2-/-p53-/- triple knock-out (TKO)
 
-The cells were sorted using the Smart-Seq2 method and sequenced using the Illumina platform. In total, there were 2554 cells passed QC and were submitted onto GEO with accession number GSE209742.
+The cells were sorted using the Smart-Seq2 method and sequenced using the Illumina platform. In total, there were 2554 cells passed QC and were submitted onto GEO with accession number **GSE209742**.
 
 ## scRNASeq_SMQ2
 This directory should have figures:
@@ -40,7 +40,10 @@ This directory should have figures:
 - **Figure4**: Fig4A, Fig4B, Fig4C
 - **Figure5**: Fig5A, Fig5B, Fig5C, Fig5D
 - **Figure6**: Fig6D, Fig6E
-
+- **FigureS2**: FigS2B, FigS2C
+- **FigureS3**: FigS3A, FigS3B
+- **FigureS4**: FigS4A, FigS4B
+- **FigureS5**: FigS5A, FigS5B, FigS5D
 
 
 
