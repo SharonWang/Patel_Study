@@ -34,12 +34,12 @@ The cells were sorted using the Smart-Seq2 method and sequenced using the Illumi
 
 ## scRNASeq_SMQ2
 This directory should have figures:
-**Figure1**: Fig1B, Fig1C
-**Figure2**: Fig2B, Fig2C
-**Figure3**: Fig3A, Fig3B, Fig3C
-**Figure4**: Fig4A, Fig4B, Fig4C
-**Figure5**: Fig5A, Fig5B, Fig5C, Fig5D
-**Figure6**: Fig6D, Fig6E
+  **Figure1**: Fig1B, Fig1C
+  **Figure2**: Fig2B, Fig2C
+  **Figure3**: Fig3A, Fig3B, Fig3C
+  **Figure4**: Fig4A, Fig4B, Fig4C
+  **Figure5**: Fig5A, Fig5B, Fig5C, Fig5D
+  **Figure6**: Fig6D, Fig6E
 
 
 
