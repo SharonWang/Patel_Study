@@ -116,7 +116,7 @@ This directory should have figures:
 
 The analysis include:
   - <ins>**[Mann_data](https://github.com/SharonWang/Patel_Study/blob/master/Published_Ageing_Data/GSE100426_Mann.ipynb)**</ins>: Pre-processing of Mann data and the aging scores were calculated for each cell. The data was downloaded from [GSE100426](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100428) from [Mann et al., Cell Rep., 2018](https://pubmed.ncbi.nlm.nih.gov/30540934/)
-  - <ins>**[Kowalczyk_data] (https://github.com/SharonWang/Patel_Study/blob/master/Published_Ageing_Data/GSE59114_Kowalczyk.ipynb)**</ins>: Pre-processing of Kowalczky data and the aging scores were calculated for each cell. The data was downloaded from [GSE59114](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59114) from [Kowalczyk et al., Genome Res., 2015](https://pubmed.ncbi.nlm.nih.gov/26430063/)
+  - <ins>**[Kowalczyk_data](https://github.com/SharonWang/Patel_Study/blob/master/Published_Ageing_Data/GSE59114_Kowalczyk.ipynb)**</ins>: Pre-processing of Kowalczky data and the aging scores were calculated for each cell. The data was downloaded from [GSE59114](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59114) from [Kowalczyk et al., Genome Res., 2015](https://pubmed.ncbi.nlm.nih.gov/26430063/)
   - <ins>**[Kirschner_data](https://github.com/SharonWang/Patel_Study/blob/master/Published_Ageing_Data/GSE87631_Kirschner.ipynb)  **</ins>:Pre-processing of Kirschner data and the aging scores were calculated for each cell. The data was downloaded from [GSE87631](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2336370) from [Kirschner et al., Cell Rep., 2017](https://pubmed.ncbi.nlm.nih.gov/28538171/)
 
 ## TCGA
