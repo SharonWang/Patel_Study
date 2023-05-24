@@ -4,7 +4,7 @@
 ## Summary: Data analysis of Patel Study
 
 # Abstract
-    Aged hematopoietic stem cells (HSC) display diminished self-renewal and a myeloid
+Aged hematopoietic stem cells (HSC) display diminished self-renewal and a myeloid
 differentiation bias. However, the physiological drivers and molecular processes that
 underpin this fundamental switch are not understood. HSCs produce formaldehyde
 and are protected from this metabolite by two tiers of protection: the detoxification
