@@ -72,6 +72,16 @@ The analysis include:
   - <ins>**[p53_score](https://github.com/SharonWang/Patel_Study/blob/master/WT_Ageing_Data/p53_Score_Cal.ipynb)**</ins>:
 p53 score calculation using the 16 defined p53-associated target genes
 
+## GSE157832_Aldh2_Adh5
+The datasets were downloaded from [GSE157832](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE157832) from [Dingler et al., Mol Cell. 2020](https://pubmed.ncbi.nlm.nih.gov/33147438/).
+
+This directory should have figures:
+- **Figure2**: Fig2G
+- **Figure3**: Fig3D
+- **FigureS5**: FigS5C
+
+The analysis include
+
 
 
   - <ins>**[Human_AML](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Human_AMLdata.ipynb)**</ins>: Human AML dataset downloaded from [GEO:GSE116256](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256) from [Galen et al., Cell 2019](https://pubmed.ncbi.nlm.nih.gov/30827681/)
