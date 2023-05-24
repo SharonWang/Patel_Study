@@ -85,7 +85,13 @@ The analysis include:
   - <ins>**[Aldh2_Adh5_HSPC](https://github.com/SharonWang/Patel_Study/blob/master/GSE157832_Aldh2_Adh5/HSPC_analysis.ipynb)**</ins>: HSPCs were extracted from the LK data and been processed
   - <ins>**[Aldh2_Adh5_proj1](https://github.com/SharonWang/Patel_Study/blob/master/GSE157832_Aldh2_Adh5/Project_onto_Dahlin_Landscape.ipynb)**</ins>: Cell type annotation using the [Dahlin haematopoietic landscape](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5969381/) as reference
   - <ins>**[Aldh2_Adh5_proj2](https://github.com/SharonWang/Patel_Study/blob/master/GSE157832_Aldh2_Adh5/Project_onto_Nestorowa_Landscape.ipynb)**</ins>: Cell type annotation using the [Nestorowa haematopoietic landscape](https://pubmed.ncbi.nlm.nih.gov/27365425/) as reference
+  - <ins>**[Aging_score](https://github.com/SharonWang/Patel_Study/blob/master/GSE157832_Aldh2_Adh5/Ageing_Score_Cal.ipynb)**</ins>: Aging score calculation using the top 20 defined aging genes
 
+## GSE116256_HumanAML
+The human AML dataset downloaded from [GEO:GSE116256](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256) from [Galen et al., Cell 2019](https://pubmed.ncbi.nlm.nih.gov/30827681/).
 
+This directory should have figures:
+- **Figure5**: Fig5E
 
-  - <ins>**[Human_AML](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Human_AMLdata.ipynb)**</ins>: Human AML dataset downloaded from [GEO:GSE116256](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE116256) from [Galen et al., Cell 2019](https://pubmed.ncbi.nlm.nih.gov/30827681/)
+The analysis include:
+  - <ins>**[Human_AML](https://github.com/SharonWang/Patel_Study/tree/master/SMQ2_notebooks/Human_AMLdata.ipynb)**</ins>: 
